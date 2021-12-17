@@ -46,7 +46,7 @@ Dữ liệu của một người bao gồm các thuộc tính:
 * void constructValueSetForAttribute(vector<Data*>* dataSet): khởi tạo tập giá trị cho các thuộc tính
 * vector<Data*>* spilitTrainSet(vector<Data*>* trainSet): chia tập dữ liệu theo tỉ lệ 4:1
 
-Chương trình hiện tại sẽ chạy random forrest, kết quả dự đoán sẽ được in ra file "predict.csv" (có thể submit trên kaggle), đồng thời in ra màn hình độ chính xác, F1 score của các nhãn đối với tập train và tập test thử.
+Chương trình hiện tại sẽ chạy random forrest, kết quả dự đoán sẽ được in ra file "predict.csv" (có thể submit trên kaggle), đồng thời in ra màn hình độ chính xác, F1 score của các nhãn đối với tập valid và tập test thử.
 
 ## III. Các bước phát triển chương trình
 ### Cơ bản:
