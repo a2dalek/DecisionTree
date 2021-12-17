@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-const int numberOfAttributes = 5;
+const int numberOfAttributes = 6;
 const int numberOfLabel = 2;
 const string pathToTrainSet = "train.csv";
 const string pathtoPrivateTestSet = "test.csv";
