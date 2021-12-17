@@ -88,7 +88,6 @@ Accuracy tối đa trên test set tăng khoảng 2%.
 Thêm tính F1 score cho các nhãn và hàm in cây.
 
 ### Các vấn đề còn lại:
-* Underfitting: Xảy ra trong khi train, accuracy trên valid set thường thấp hơn trên test set khoảng 8-10%
 * Lỗi std:bad_alloc: Xảy ra khi chương trình xây dựng khoảng 10000 cây độ cao 1-10, hoặc khi xây dựng khoảng 6000 cây độ cao 5-15. Theo tra cứu thì lỗi này xảy ra khi không đủ bộ nhớ, mặc dù đã có hàm delNode(), delTree() và hủy cấp phát những con trỏ ngay khi không dùng tới nữa để giảm khả năng xảy ra lỗi này.
 
 ## IV. Kết quả cuối cùng
